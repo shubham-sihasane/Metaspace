@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Greetings
-        run: echo "Hello world\nWelcome to the world of DevOps"
+        run: echo -e "Hello world\nWelcome to the world of DevOps"
       - name: Print Hostname
         run: hostname
       - name: Print Goodbye
